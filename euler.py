@@ -13,11 +13,15 @@ def euler_2():
 	n = 0
 	l = [1,2]
 	print(str(l[0]) + "\n" + str(l[1]))
-	while(n < int(number)):		
+	while(n < int(number)):
 		n = l[0] + l[1]
 		if n < int(number):
 			print(n)
 			l[0] = l[1]
 			l[1] = n
 
-euler_2()
+def euler_3():
+        numero = input("ingresa un numero:")
+
+        while(x != 1)
+euler_3()
